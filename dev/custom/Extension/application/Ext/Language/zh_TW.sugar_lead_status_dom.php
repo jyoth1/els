@@ -1,0 +1,13 @@
+<?php
+ // created: 2019-05-29 18:29:55
+
+$app_list_strings['lead_status_dom']=array (
+  '' => '',
+  'New' => '新',
+  'Assigned' => '已指派',
+  'Converted' => '已轉換',
+  'Contacted' => 'Contacted',
+  'In Progress' => 'In Progress',
+  'Dead' => 'Dead',
+  'Recycled for Marketing' => 'Recycled for Marketing',
+);

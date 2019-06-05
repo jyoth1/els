@@ -1,0 +1,4 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_SI_SITES_LEADS_1_FROM_SI_SITES_TITLE'] = 'Sites';
+$mod_strings['LBL_SI_SITES_LEADS_1_FROM_LEADS_TITLE'] = 'Sites';

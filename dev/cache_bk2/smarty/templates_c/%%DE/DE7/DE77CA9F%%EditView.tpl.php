@@ -1,0 +1,33 @@
+<?php /* Smarty version 2.6.11, created on 2019-05-27 16:07:19
+         compiled from include/SugarFields/Fields/Int/EditView.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 'include/SugarFields/Fields/Int/EditView.tpl', 13, false),array('modifier', 'default', 'include/SugarFields/Fields/Int/EditView.tpl', 19, false),)), $this); ?>
+{*
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+*}
+{if strlen(<?php echo smarty_function_sugarvar(array('key' => 'value','string' => true), $this);?>
+) <= 0}
+{assign var="value" value=<?php echo smarty_function_sugarvar(array('key' => 'default_value','string' => true), $this);?>
+ }
+{else}
+{assign var="value" value=<?php echo smarty_function_sugarvar(array('key' => 'value','string' => true), $this);?>
+ }
+{/if}  
+<input type='text' name='<?php if (empty ( $this->_tpl_vars['displayParams']['idName'] )):  echo smarty_function_sugarvar(array('key' => 'name'), $this); else:  echo $this->_tpl_vars['displayParams']['idName'];  endif; ?>' 
+id='<?php if (empty ( $this->_tpl_vars['displayParams']['idName'] )):  echo smarty_function_sugarvar(array('key' => 'name'), $this); else:  echo $this->_tpl_vars['displayParams']['idName'];  endif; ?>' size='<?php echo ((is_array($_tmp=@$this->_tpl_vars['displayParams']['size'])) ? $this->_run_mod_handler('default', true, $_tmp, 30) : smarty_modifier_default($_tmp, 30)); ?>
+' <?php if (isset ( $this->_tpl_vars['displayParams']['maxlength'] )): ?>maxlength='<?php echo $this->_tpl_vars['displayParams']['maxlength']; ?>
+'<?php elseif (isset ( $this->_tpl_vars['vardef']['len'] )): ?>maxlength='<?php echo $this->_tpl_vars['vardef']['len']; ?>
+'<?php endif; ?> value='<?php if ($this->_tpl_vars['vardef']['disable_num_format']): ?>{$value}<?php else: ?>{sugar_number_format precision=0 var=$value}<?php endif; ?>' title='<?php echo $this->_tpl_vars['vardef']['help']; ?>
+' tabindex='<?php echo $this->_tpl_vars['tabindex']; ?>
+' <?php echo $this->_tpl_vars['displayParams']['field']; ?>
+ <?php if (! empty ( $this->_tpl_vars['displayParams']['accesskey'] )): ?> accesskey='<?php echo $this->_tpl_vars['displayParams']['accesskey']; ?>
+' <?php endif; ?>  >

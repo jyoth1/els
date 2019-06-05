@@ -1,0 +1,10 @@
+<?php
+// created: 2019-05-25 13:53:53
+$viewdefs['Meetings']['base']['layout']['subpanels']['components'][] = array (
+  'layout' => 'subpanel',
+  'label' => 'LBL_EXP_EXPENSES_MEETINGS_FROM_EXP_EXPENSES_TITLE',
+  'context' => 
+  array (
+    'link' => 'exp_expenses_meetings',
+  ),
+);

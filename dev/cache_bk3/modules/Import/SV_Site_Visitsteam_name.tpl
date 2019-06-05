@@ -1,0 +1,2 @@
+
+{sugarvar_teamset parentFieldArray=fields vardef=$fields.team_name tabindex='1' display='' labelSpan='' fieldSpan='' formName='importstep3' tabindex=1 displayType='renderImportView'  idName='default_value_team_name' 	 }

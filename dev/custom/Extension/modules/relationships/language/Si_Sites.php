@@ -1,0 +1,8 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_SI_SITES_SV_SITE_VISITS_1_FROM_SV_SITE_VISITS_TITLE'] = 'Site Visits';
+$mod_strings['LBL_SI_SITES_SV_SITE_VISITS_1_FROM_SI_SITES_TITLE'] = 'Site Visits';
+$mod_strings['LBL_SI_SITES_LEADS_1_FROM_LEADS_TITLE'] = 'Leads';
+$mod_strings['LBL_SI_SITES_LEADS_1_FROM_SI_SITES_TITLE'] = 'Leads';
+$mod_strings['LBL_SI_SITES_USERS_1_FROM_USERS_TITLE'] = 'Users';
+$mod_strings['LBL_SI_SITES_USERS_1_FROM_SI_SITES_TITLE'] = 'Users';
