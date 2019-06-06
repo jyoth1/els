@@ -10,7 +10,7 @@ jobs:
     php: '7.1'
     os: linux
     before_script:
-    - cd package
+    
     - composer install
     script:
     - vendor/bin/phpunit --configuration ../tests/phpunit/phpunit.xml
